@@ -1,4 +1,4 @@
-# pushoveR: Send pushover notifications from R
+# pushoveR: Send Pushover notifications from R
 
 This is an R package that lets you send [Pushover](https://pushover.net) notifications from `R`. It's inspired by [this package by Dirk Eddelbuettel](http://dirk.eddelbuettel.com/code/rpushbullet.html), but uses Pushover to avoid using a Google account. To use it, you'll need:
 
