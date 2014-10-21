@@ -21,3 +21,17 @@ To create a configuration file, copy and paste this code into a blank text file:
 ```
 
 enter your information. Your devices are the names you gave them on your Pushover account. Save that file as `pushoverinfo.json` in your home directory (Mac) or your R working directory (Windows).
+
+# Usage
+
+Pretty simple:
+
+```
+pushoveR('Your message here')
+```
+
+If you want a custom title (defaults to "RStudio"):
+
+```
+pushoveR('Your message here',title='Awesome Title')
+```
