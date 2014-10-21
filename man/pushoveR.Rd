@@ -7,11 +7,11 @@
 
 \item{title}{Your title as a string (optional, if not provided defaults to "RStudio")}
 
-\item{apikey}{Your Pushover API key}
+\item{apikey}{Your Pushover API key (used automatically with a config file)}
 
-\item{userkey}{Your Pushover user key}
+\item{userkey}{Your Pushover user key (used automatically with a config file)}
 
-\item{device}{Which pushover device do you want to send to?}
+\item{device}{Which pushover device do you want to send to? (defaults to first device in config file list)}
 }
 \value{
 Standard http response, and a Pushover message on the selected device.
@@ -20,7 +20,7 @@ Standard http response, and a Pushover message on the selected device.
 Lets you send Pushover messages from R.
 }
 \details{
-This package provides an R-based interface for Pushover. In order to use it, you'll need to register for Pushover, and apply for a 'script' apikey at \href{https://pushover.net/api}{here}. If you'd like, you can create a JSON file called "pushoverinfo.json" in your home directory (or your default working directory on Windows). Otherwise you'll have to enter everything manually.
+This package provides an R-based interface for Pushover. In order to use it, you'll need to register for Pushover, and apply for a 'script' apikey at \href{https://pushover.net/api}{here}. If you'd like, you can create a JSON file called "pushoverinfo.json" in your home directory (or your default working directory on Windows). To get a template for the config file, go \href{here}{https://github.com/nicholasbloom/pushoveR}. Otherwise you'll have to enter everything manually.
 }
 \examples{
 pushoveR('My long process is done!')

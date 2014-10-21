@@ -10,5 +10,5 @@ Description: This package provides an R-based interface for Pushover. In order
     everything manually.
 Depends:
     R (>= 3.1.1)
-License:  GPL (>= 2)
+License: GPL (>= 2)
 LazyData: true
