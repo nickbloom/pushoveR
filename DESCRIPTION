@@ -2,8 +2,13 @@ Package: pushoveR
 Title: Lets you send Pushover messages from R.
 Version: 0.1
 Authors@R: "Nick Bloom <n.bloom@icloud.com> [aut, cre]"
-Description: This package provides an R-based interface for Pushover. In order to use it, you'll need to register for Pushover, and apply for a 'script' apikey at \href{https://pushover.net/api}{here}. If you'd like, you can create a JSON file called "pushoverinfo.json" in your home directory (or your default working directory on Windows). Otherwise you'll have to enter everything manually.
+Description: This package provides an R-based interface for Pushover. In order
+    to use it, you'll need to register for Pushover, and apply for a 'script'
+    apikey at https://pushover.net/api. If you'd like, you can
+    create a JSON file called "pushoverinfo.json" in your home directory (or
+    your default working directory on Windows). Otherwise you'll have to enter
+    everything manually.
 Depends:
     R (>= 3.1.1)
-License: GNU General Public License 3.0
+License:  GPL (>= 2)
 LazyData: true
